@@ -1,0 +1,51 @@
+Employee --> thrird highest salary person
+
+ select name,id,salary from Employee where salary = equals( group by Max(n-3))
+
+
+@component({
+  select:'field-dropdown',
+  template:'field.html'
+  styleUrl: ''
+})
+
+export class fielddropdown{
+
+  const empAgeList = {15,16,17,18,19 .....30,31,32,33};
+   const error=false;
+  function selectAgeEmp($event):string{
+
+    const selectVal = $event.value;
+
+   if(selectVal >30){
+    //call service method to save info indb
+  }
+  else{
+    error  =true
+  }
+
+}
+   
+
+}
+
+
+
+//html
+
+<form>
+<select id="empAge" name="empAge" placeholder="select the Age of employe"
+  ngmodel=[(empAgeList)] onchange="selectAgeEmp(event)"
+></select>
+</from>
+
+
+java Interview Question : 
+
+1. what is IO javastram .what all package.How you implement once 
+2. what string constant pool.
+3. what is hashmap and concurrent hashmap.
+4. what is optional class in java
+5. what is stream API.
+6.get list of employee which salary 3rd highest.
+7. write the 

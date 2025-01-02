@@ -1,0 +1,128 @@
+routeguard
+ dashboard Component --> comp1,2,3
+ login componponent
+ singup
+ admin
+
+
+
+
+You will be given a list of 32 bit unsigned integers.
+ Flip all the bits (1->0 and 0->1) and return the result as an unsigned integer.
+Example
+n=9(10)9(10)=1001(2). 
+We're working with 32 bits, so:
+000000000000000000000000000001001 = 9(10)
+111111111111111111111111111110110 = 4294967286(10)
+Return 4294967286.
+Output:
+int: the unsigned decimal integer result
+Input Format
+The first line of the input contains q, the number of queries.
+Each of the next q lines contain an integer, n, to process.
+Constraints
+1 <= q <= 100
+0 <= n < 2^32
+Sample Input 1
+2 -->the number of queries- how  many input will be
+4 --> inpur //0100->1011
+123456
+Sample Output 1
+4294967291
+4294843839
+
+
+function flipBinanary(int n){
+consol
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Given a string containing of 0, 1 and ? - a wildcard character, generate all distinct binary strings that can be formed by replacing each wildcard character by either 0 or 1.
+Example 1:
+Input: 1??0?101
+Output: 10000101 10001101 10100101 10101101 11000101 11001101 11100101 11101101
+Explanation:There will be 8 such possible strings that can be formed, they are 10000101, 10001101, 
+10100101, 10101101, 11000101, 11001101, 11100101 and 11101101.
+Example 2:
+Input: 10?
+Output: 100 101
+Explanation: There are 2 such possible strings and they are 100 and 101.
+Your Task:
+You don't need to read or print anything. Your task is to write a function which takes the given string as input parameter and returns a vector of strings containing all the possible strings that can be formed.
+Note : Strings should be printed in lexicographically increasing order.
+Expected Time complexity: O(2^n)
+Expected Space complexity: O(n*2^n)
+Constraints:
+1 ≤ length of string ≤ 30
+Note: Number of '?' in any string does not exceed 15.
+
+
+
+String str="XYZ";
+const splitStr = str.split("");
+let size = splitStr .length();
+let revers=[];
+splitStr.forEach((item,index)=>{
+    if(index==size){
+      revers.push(item)
+   }
+   index--;
+}).join();
+
+
+
+Binary related questions
+Resver a string without using inbuilt function 
+What change detection strategy in angular 
+Lazy loading in angular, explain through example 
+Sharing information parent to child component and child to parents 
+
+Ngrx explain basic mudules and operator 
+Rxjs and ngrx difference 
+Difference between ngcontentviewinit and ngcontentview
+What all angular components zone.
+Explain AOT and how it different from JIT
+
+SQL:
+
+find the third large salary employee name from employee list.
+
+
+
+what is callback
+what is controlled and uncontrolled component in react.explain trough example.
+what is prototype interface in javascript
+what is highorder component in react
+what is micro task queue and macro task queue . And list out the diffrence.
+what if middleware execution is not correct.
+what is event delegation into javascript
+what is port
+what is concelition and which algorithm is used to application render.
+what is technique to follow optimization of 100 or millian component rendering . it should opitimze .what all technique is used.
+
+
+

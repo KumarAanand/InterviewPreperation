@@ -1,0 +1,26 @@
+what is optional class in java
+optional class is present in java.utils
+optional class is introduced in java8 is used to handle the null
+pointer exception. 
+Optional<string> optional = Optional.ofNullable(null)
+if(optional.present()){
+   console.log(optional.get())
+}
+else{
+   console.log(value is absent)
+}
+
+what is new feature you used in java 15 . 
+what is enhancment in stream api,error handling,Hashtable
+what is consumer functional interface
+polymorephism
+what is return type in functional overloading
+why concurrent hasmap is defined
+why we use @configure,@value,@transition,@componentscan in spring
+what is use of  put,post,patch method
+
+
+how to check git command to check commit history to check
+
+I have employee list who is working in particulart department. write a javascript function to get count of working in specific departemnt.
+ 

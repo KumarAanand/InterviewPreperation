@@ -1,0 +1,13 @@
+what is callback
+Explain call,apply,bind with example
+what is controlled and uncontrolled component in react.explain trough example.
+what is prototype interface in javascript
+what is highorder component in react
+what is micro task queue and macro task queue . And list out the diffrence.
+what if middleware execution is not correct.
+what is event delegation into javascript
+what is port
+what is concelition and which algorithm is used to application render.
+what is use of put ,post,patch
+what is technique to follow optimization of 100 or millian component rendering . it should opitimze .what all technique is used by React.
+write a react component which give auto increse and once it react 100 that it should start from 0.

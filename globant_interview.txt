@@ -1,0 +1,10 @@
+ES6 feature
+java sript feature which you used in application
+react feature which you used in application
+hoisting in javascript
+what is middle ware and what is configuration you are doing in middle ware.
+what is diffrence  between promises and async ,await in javascript and why we used.
+what is diffrece between props and state.
+what is phase of component in react.
+what is context is in javscript.
+what is use redux. what is basic feature and component.

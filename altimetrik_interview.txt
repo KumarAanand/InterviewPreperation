@@ -1,0 +1,11 @@
+what is dom
+how internally dom work once componenet rernder.
+how jwt token work once in case you are hitting multiple api.
+explain jwt end to end token based access.
+what is use of context api and redux store usablity.
+what is use of module based accesss application.
+how you can restrict the access in api role based.
+how you reading updated token and sharing updated token with multiple api.
+what is use of ref ans why we use.
+how you can pass props from child to parent
+create one react application that have count,pick ,round once count reach 8 pick should be 1 and count again should reset to 1.

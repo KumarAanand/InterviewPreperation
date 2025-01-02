@@ -1,0 +1,10 @@
+Question : write the function to duplicate array item and print new array to multiple with 5 and its index.
+write callback function
+what is es6 feature in javascript
+what is diffrence between ansync and sync function. what all way to make it.
+what is event loop.what is settimeout and promise belongs.
+how middleware work.
+how you can validate usebase role whether use is valid or not. 
+what is use of SSL certificate. And how to make http to https.
+what is docker and basic steps.
+azzure basic features.

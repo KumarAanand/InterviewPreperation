@@ -1,0 +1,25 @@
+//write a auto increment and displap on UI. once it react it 10 than restart from '0'
+
+import React , {useState,useEffect} from "react";
+export default function App() {
+    const [count,setCount]=useState(0);
+    useEffect(()=>{
+        setTimeout(()=>{
+             if(count ==10){
+            setCount(0);
+        }else{
+             for(let i=0;i<=10;i++){
+            setCount(count+1);
+            
+        }
+        }
+        },1000)
+       
+    } , [count])
+  return <>
+    <h1> {count}</h1> 
+        </>
+}
+
+
+2.write a component that display working employee from each department from employee collection

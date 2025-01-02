@@ -1,0 +1,67 @@
+What is Node.js, and how does it work?
+Explain the event-driven architecture in Node.js.
+What is the difference between JavaScript and Node.js?
+What is the V8 engine, and why is it important for Node.js?
+What are the key features of Node.js?
+Core Modules:
+6. Explain the 'fs' module in Node.js.
+7. What is the purpose of the 'http' module?
+8. How do you use the 'path' module?
+9. What does the 'events' module do in Node.js?
+10. How do you manage streams in Node.js?
+
+Asynchronous Programming:
+11. What is the event loop in Node.js?
+12. How do callbacks work in Node.js?
+13. What are Promises, and how are they used in Node.js?
+14. Explain the difference between async/await and callbacks.
+15. What is a callback hell, and how do you avoid it?
+
+Package Management:
+16. What is npm, and how does it work?
+17. How do you install and update a package globally?
+18. What is package.json, and why is it important?
+19. How do you handle version control for dependencies?
+20. What is the difference between npm and yarn?
+
+RESTful APIs:
+21. How do you create a basic RESTful API in Node.js?
+22. What is middleware in Express.js?
+23. How do you handle errors in a REST API?
+24. What is CORS, and how do you enable it?
+25. Explain how to secure a Node.js API.
+
+Performance & Optimization:
+26. How do you manage memory in Node.js?
+27. What are clusters in Node.js?
+28. How do you prevent blocking the event loop?
+29. Explain how to use caching in Node.js.
+30. What is load balancing, and how does Node.js handle it?
+
+Database Integration:
+31. How do you connect to a database using Node.js?
+32. What is the difference between SQL and NoSQL databases in Node.js?
+33. How do you handle database migrations?
+34. What is Sequelize, and why is it useful?
+35. How do you optimize database queries in Node.js?
+
+Security:
+36. What are some common security vulnerabilities in Node.js?
+37. How do you handle authentication in Node.js?
+38. What is JWT, and how do you use it?
+39. How do you manage API keys securely?
+40. What are best practices for securing a Node.js application?
+
+Testing & Debugging:
+41. How do you debug a Node.js application?
+42. What is Mocha, and how is it used?
+43. How do you write unit tests for Node.js code?
+44. Explain how to handle errors during testing.
+45. What tools are available for testing Node.js applications?
+
+Advanced Topics:
+46. What are worker threads in Node.js?
+47. Explain how WebSockets work in Node.js.
+48. What is microservices architecture in Node.js?
+49. How do you use GraphQL with Node.js?
+50. What is a process manager like PM2, and why use it?

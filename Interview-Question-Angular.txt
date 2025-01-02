@@ -1,0 +1,21 @@
+1.How ngrx work in angular.
+2.how effect work in ngrx.
+3.const numbers = [10, 9, 1, 3, 5, 2];
+Write a function using the reduce method to find and return the maximum value in the array.
+4. i need to put debugger or console statement to following 
+
+loadItems$ = createEffect(() =>
+    this.actions$.pipe(
+      ofType(ItemActions.loadItems), // Listen for the loadItems action
+      mergeMap(() =>
+        this.itemService.getItems().pipe(
+          map((items) => ItemActions.loadItemsSuccess({ items })), // Dispatch success action with items
+          catchError((error) =>
+            of(ItemActions.loadItemsFailure({ error })) // Dispatch failure action with error
+          )
+        )
+      )
+    )
+  );
+
+5. what is diffrence between switch and reduce.
