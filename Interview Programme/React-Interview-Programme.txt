@@ -23,3 +23,58 @@ export default function App() {
 
 
 2.write a component that display working employee from each department from employee collection
+
+3. write a controlled component 
+ 
+import React, { useState } from "react";
+
+function App() {
+  const [value, setValue] = useState("");
+
+  const handleChange = (event) => {
+    setValue(event.target.value); // Update state
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`Submitted Value: ${value}`);
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Name:
+        <input type="text" value={value} onChange={handleChange} />
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default App;
+
+4. write a uncontrolled component 
+
+import React, { useRef } from "react";
+
+function UncontrolledComponent() {
+  const inputRef = useRef();
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    alert(`Submitted Value: ${inputRef.current.value}`); // Access value using ref
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Name:
+        <input type="text" ref={inputRef} />
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default UncontrolledComponent;
+

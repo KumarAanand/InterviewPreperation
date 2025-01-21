@@ -1,0 +1,47 @@
+Explain the 3 most powerful Rxjs operators that you have used with simple examples.
+map Operator:
+The map operator applies a given function to each value emitted by the source 
+observable and emits the resulting values as an observable.
+
+Use Case for map could bbe:
+ the map operator when you need to transform the values emitted by an observable. 
+For instance, if you receive data from an API and need to convert or format it before further
+ processing, map is an ideal choice.
+
+filter Operator:The filter operator emits only those values from the source observable
+ that satisfy a specified predicate function.
+Use Case of filter could be:
+The filter operator is useful when you want to exclude certain values based on a condition.
+ For instance, you may want to filter out invalid or unwanted data from a stream before processing it further.
+
+switchMap Operator:
+The switchMap operator maps each value to an observable, then flattens all of these inner observables using switch, 
+meaning it subscribes to the most recently projected observable and unsubscribes from the previous ones.
+Use Case:
+The switchMap operator is especially useful in scenarios where you want to handle only the latest value from
+ a stream and ignore the previous ones.
+
+2.Explain how you would manage date and time in a MEAN project if it has to support clients in multiple time zones.
+
+1.Always store dates and times in UTC format in your database. This avoids any confusion with 
+  time zone conversions later on. MongoDB has built-in support for storing dates in UTC.
+2.ISO 8601 is a standardized format for date and time representations.
+3.Use libraries like moment-timezone to handle time zone conversions on the server. 
+  This library allows you to easily convert between different time zones.
+4.When sending dates from the server to the client, always send them in UTC.
+ This ensures consistency and avoids any discrepancies.
+5.On the client side, use libraries like moment-timezone or JavaScript’s Intl.
+  DateTimeFormat to convert and display dates in the user’s local time zone.
+
+
+3.What are the biggest limitations of the Firestore database in your opinion?
+Limited Query Capabilities:Firestore’s query capabilities are somewhat limited compared to traditional SQL 
+                  databases. It lacks support for complex queries, such as joins and aggregations.
+Scalability Constraints:If your application requires extremely high write throughput or deals with very 
+large documents, you might encounter limitations or need to employ additional strategies to manage these constraints.
+Index Management:Certain queries might require composite indexes, and manually creating and managing these indexes can
+ become a hassle, especially as the number of queries grows.
+Latency:Users located far from Firestore’s server locations might experience higher latency, 
+affecting the real-time performance of your application.
+Cost:If your application performs a large number of reads and writes or stores a significant amount of data, 
+the costs can escalate rapidly compared to other database solutions.

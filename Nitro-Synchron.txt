@@ -1,0 +1,20 @@
+
+  
+//nitorinfotech
+I have define function1 , function2, function3, fucntion4. How to call these function in squence using promise.
+In promise we use .then() to get promise result. what else we can use.
+why we use async and await.
+i need to execute useEffect hook.After rendering of the componet how is it possible.Explain with example.
+I need to execute before rendering of the compoent .i need to execute UseEffect.
+I have password sotre in database. In which formatte it store what is step.
+Once use login how stored password verify .tell the step by step process.
+What is middleware.How it work. What all middleware have you used in your application.
+
+//Synchron interview
+what is promise.
+what all internal state promise is having.
+what is virtual dom and how it work internally
+what is testcase framwork and how much thresold it is having.
+what is middleware.
+how to optimize the technique in react application.
+write a programme to read collection from javascript and implement cache.

@@ -1,0 +1,25 @@
+21/01/2025
+
+interview-3
+write a query to fetch detail mulitple collection in mongo and SQL 
+how a token is refresh while refreshing how validating that token is belongs particular use. usecase: user2 is not able to refresh the user1.
+if user1 tocken is validating and genrate the token .if user2 is using and while refreshing that 
+how it takes care.
+how api is restric in browser directly. insterad of that is accebile by appliation
+what is microfrentend archicture.
+how payment gaytway designed and develope logic to accept request from multiple device(desktop,laptop,phone,table).
+
+Interview-4
+explain you rectent project. if you face any criticality in development and how you handle that scenario.
+write a app using react and redux for increment.
+how you handle the situation if you collegue is not able to deliver work.
+how you handle critical deliver the work in less than time.
+how you over come the problem if you junior developer override code into release branch.
+what type of css framework have you worked
+how you implement rouiting in react application.
+how you implement micro frontend archicture.
+what all pattern used in react . which once you used in react appliaction. 
+
+
+
+
