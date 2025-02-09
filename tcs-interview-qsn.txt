@@ -1,0 +1,5 @@
+what is usecall and usememo used for.
+what is lazy loading . how you implment in you applcation.
+write a custome hook which is capable to make api call.
+what is portal in react.
+what is  

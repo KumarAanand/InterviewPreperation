@@ -1,0 +1,18 @@
+what is seemantic tag in html
+what is dipslay property.
+what all align-item property value.
+what ngif and ngclass diffrence.
+what display:none and display:hidden
+what is display property.
+what is [(ngmodel)] and [ngmodel] diffrence.
+what is viewchild and viewchildren diffrence
+what is directive and pipes
+what would be custome pipe and directive give exmaple
+what will be [(ngmodel)]="api call" and [ngmodel]=""
+write a programe to convert array item just double array.
+write a programme to reverse array item.
+write a programe to find sum of array item.
+write a proggrame to find frequency of array.
+design the following html design.
+ outbox that contain three details.
+  

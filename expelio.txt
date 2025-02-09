@@ -1,0 +1,68 @@
+lazy loading in application how you implememt.
+how you implment dyncamic routing in react application.
+what is micro frontned technology.
+what is custome hooks.how you can write.
+what is virtual dom .how it do process in react application.
+what is controlled and uncontrolled component.
+what is portal base synthatic evnet.
+what is typesafe props you define in angular
+what is sinthetic evetn.
+what is evetnlistner.How you implement custome eventlistner.
+what is Reactive forms.how you implement
+what is es6 feature.
+what statemanagment tool.How you manage.
+how you implment state.
+how you share data bbetween component.
+what is change detection stretage in angular
+what is two way data binding in angular.
+what is mircoseverices archicture basic component.
+
+
+
+
+//router-configuration
+
+import {Router} from "react-router-dom";
+
+const RouteConfig = ()=>{
+  const Routes={
+   {componet:login,path:'/component/login'}
+}
+  <Routes>
+   <Route path:''>Login Compoent<Routes>
+ </Routes>
+}
+
+const customeHook = (function(),array)=>{
+   
+  //propertry intiatlization
+
+  useEffect(function,array);
+}
+
+
+
+//ts
+
+FormBuild :fromb {
+  firstname: any;
+  
+}
+Form
+
+//
+<form >
+  <input formctrl ="firstname: " placeholder="Firstname" >
+  <input formctrl ="" placeholder="lastname" >
+  <button type="submit"></button>
+</form>
+
+
+
+const demo =()=>{
+return 'demo';
+}
+
+test('test the demo furnction',()=>{
+   demo().expexted(string);
+})

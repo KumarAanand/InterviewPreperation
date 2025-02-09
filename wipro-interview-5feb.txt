@@ -1,0 +1,4 @@
+i need to make api call and consume the response and display the result.
+write a java springboot application to enter commet by user in string formatt synatize(only accept string without special charchter)
+write a regex for email to accept only email format 
+write a angular application in component to display array json api response in tabular format.

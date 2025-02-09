@@ -1,0 +1,56 @@
+what is controlled and uncontrolled component
+what is diffrence betwee usecallback and usememo. define  both of then.
+what is virtual dom in react.
+what is reconsilation in react.
+what is event loop.
+what is microtask queue and macro task queue.
+write a javascript programme to find the combination number of targer sum(17)
+
+//[1,5,7,9,2,6]
+ function findSumCombination(arr,targetSum){
+     let result =[];
+     function findSubset(index,currentSubset,currentSum){
+         if(currentSum==targetSum){
+             result.push([...currentSubset]);
+             return;
+         }
+         if(index >= arr.length||currentSum >targetSum){
+             return;
+         }
+         //include the current number
+         currentSubset.push(arr[index]);
+         findSubset(index+1,currentSubset,currentSum+arr[index]);
+         //Exclude the current number
+         currentSubset.pop();
+         findSubset(index+1,currentSubset,currentSum);
+     }
+     findSubset(0,[], 0);
+     return result;
+ }
+ 
+ let arr =[1,5,7,9,2,6];
+ const targetSum =17;
+ const combinations= findSumCombination(arr,targetSum);
+ console.log(combinations);
+
+write a programe to find the second lowest number
+//[1,5,7,9,2,6]
+function findSecondLowest(arr){
+    let lowest=Infinity;
+    let secondLowest = Infinity;
+    let arrLen =arr.length;
+    
+    for(let i=0;i<arrLen;i++){
+        if(arr[i]<lowest){
+            secondLowest = lowest;
+            lowest =arr[i];
+        }
+        else if(arr[i]>lowest && arr[i]<secondLowest){
+            secondLowest = arr[i];
+        }
+    }
+    return secondLowest === Infinity ?null:secondLowest;
+}
+
+const arr =[1,5,7,9,2,6];
+console.log(findSecondLowest(arr))

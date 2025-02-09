@@ -1,0 +1,22 @@
+how you are calculating the time martix which is taking time and incresingg redering time.
+how you are optimizing the backend api call.
+whether we need to remove the once you using for calculating time.
+what all thrid party monitoring tool for performance you ar using.
+what is app dynamics..
+what all step as developer you take to optimize the backend application.
+how you able to achive Monitoring and Debugging API Performance
+what is the use of exclamation mark in <!DOCTYPE> tag. how it bbehave if i dont use while defining.
+what is Semantic tags.
+what is accessibility .how we can improve improving accessibility and SEO.
+what step we can take for specially abled people.
+write a test case of adding the two number of function.
+how you implement specially abled person able to access the application.
+Write a @ directive that take a variable j that goes 1 to 6
+@for $j from 1 through 6 {
+  .item-#{$j} {
+    width: #{10 * $j}px;
+    height: #{10 * $j}px;
+    background-color: lighten(blue, $j * 5%);
+  }
+}
+need to define the css for landscape and potrait mode for diffrent resolution of device.

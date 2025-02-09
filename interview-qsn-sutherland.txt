@@ -1,0 +1,13 @@
+which one framwork is better react or angular, As a developer what is your point of view.
+Have you worked on any module as individual functionality that is blocker for your application to work smooth . How you resolve
+it.
+react is fast fromwork.	what is your point of view as developer. and why
+what is proifle. why is used for.
+what is hoc .what all hoc aviavilble in react.
+what is diffrence between in React.memo and usememo
+what all the library is available for memoization.
+how you controll the rendring of component .what all hooks is avialble.
+how you displaying loading until response is not getting in component.is there inbuild fucntionality tell the name.
+implement the incrment and decrement counter on click of function with help of store.
+what all the hooks is avaivlble for unmouniting of component.In class based component there are function is avaibleble.
+write loading implementation until api response come on client side using react library.

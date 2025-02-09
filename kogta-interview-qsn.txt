@@ -1,0 +1,152 @@
+
+Program for typeof function
+console.log(typeof null)
+console.log(typeof undefined)
+console.log(typeof 0)
+console.log(typeof xyz)
+console.log(typeof [])
+console.log(typeof {})
+console.log(typeof [4,2,3,9])
+
+what is hoisting .explain the following example.
+var x;
+console.log(x);
+x=10;
+
+or console.log(x);
+var x=10;
+
+console.log(x);
+let x=10;  //ReferenceError: Cannot access 'x' before initialization
+
+what is diffrence between var,const,let.
+what is es6 and es5 feature.
+what is symbols.
+what is event loop.Ans in which sequnce follwoing code will execute.
+console statement
+settimeout function
+promise
+console log statement
+
+console.log('A');
+setTimeout(() => console.log('B'), 0);
+Promise.resolve().then(() => console.log('C'));
+console.log('D');
+
+Why promise is having more priority campare to settimeout function
+what is reduce function. I have json array .i want to concat first and last name which is age is more than 20.
+list out the diffrent type of function.How arrow function definded this.
+Give out put of following output :
+let obj = {
+
+  fullName:"aniket",
+
+  getName:function(){
+
+     return this.fullName
+
+  }
+
+}
+ 
+let obj = {
+
+  fullName:"aniket",
+
+  getName:function(){
+
+    let a = function(){
+
+       return this
+
+    }
+
+      console.log(a())
+
+  }
+
+}
+ 
+ 
+obj.getName()
+write a programme to count frequency of item.with reduce and for-each function
+what is closure .explain with example.
+// function greet(){
+//     console.log('Hello');
+// }
+// greet();
+
+// const greet = ()=>console.log('Hello')
+// function greet(){
+//     console.log('Hello');
+// }();
+
+
+// let obj = {
+//   fullName:"aniket",
+//   getName:function(){
+//      return function (){
+//          let 
+//      }
+//   }
+// }
+
+// obj.getName()()
+
+
+// let obj = {
+//   fullName:"aniket",
+//   getName:function(){
+//     let a = ()=>{
+//       return this
+//     }
+//       console.log(a())
+//   }
+// }
+ 
+ 
+// obj.getName()
+ 
+console.log('A');
+setTimeout(() => console.log('B'), 0);
+Promise.resolve().then(() => console.log('C'));
+console.log('D');
+
+
+let arr = [{FirstName:'aniket',lastname:'morya',age:20},{FirstName:'x',lastname:'y',age:22},{FirstName:'p',lastname:'q',age:23}]
+
+let output= [{name:'aniket morya',age: 20}]
+
+arr.reduce((acc,item)=>{
+    if(item.age>=20){
+        item.FirstName+''+item.lastname
+    }
+},0)
+
+
+
+
+
+
+
+
+let str ="my name is aniket";
+//{" ": 3, "m": 2, "n": 2}
+function findoccurance(str){
+    // let charCount = str.split('').reduce((acc,char)=>{
+    //     acc[char]=(acc[char]||0)+1;
+    //     return acc;
+    // },{})
+    let charCount={}; 
+    for(let char of str){
+        if(charCount[char]){
+            
+        }
+    }
+   
+   return charCount;
+}
+
+let countCh= findoccurance(str);
+
+console.log(countCh)

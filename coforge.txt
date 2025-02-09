@@ -1,0 +1,56 @@
+Task: -  Create a registration form component in React. Write a React component that implements the above requirements.
+The form should include fields for the user to enter their name, email, and password.
+Implement form validation to ensure that the following conditions are met:
+The name field is required and should contain only alphabetic characters.
+The email field is required and should be a valid email address format.
+The password field is required and should have a minimum length of 8 characters.
+
+
+import React,{useState} from "react";
+export default function App() {
+ const [formData,setFormData] = useState({
+     name:"",
+     email:"",
+     password:""
+ })
+  const [error,setError] =useState({});
+    const handleChange = (e)=>{
+        const {name,value} = e.target;
+        setFormData({ ...formData, [name]:value})
+        //setError( ...error,[name]:"")
+    }
+
+    const validationForm =()=>{
+        if(!formData.name){
+            error.name ="name is requried"
+        }
+    }
+
+    const handleSubmit = () =>{
+        e.preventDefault();
+        if(validationForm()){
+            alert('Registration succesfully')
+        }
+    }
+  return <>
+     <div>
+     <form  onsubmit={handleSubmit}>
+         <div>
+              <input type="text" name="name" onchange={handleChange} value={formData.name} placeholder="enter the field value"/><br/>
+             {error.name && <p >{error.name}</p>}
+         </div>
+       <input type="email" name="email" onchange={handleChange} value={formData.email} value="" placeholder="enter the email field value "/><br/>
+    <input type="text" name="name"  onchage={handleChange} value={formData.password}  placeholder="enter the password filed valude"/>
+     <br/><button type="submit">Submit</button>
+     </form>
+     </div>
+  </>
+}
+
+
+2. how to optimize angular application
+3. how to tree shaking term in angular
+4. what all change detection stretegy in angular
+5.what is lazy loading how you achive in angular.
+6. what is diffrence between localstorage and session storage.
+7. 

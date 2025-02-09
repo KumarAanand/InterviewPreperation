@@ -1,0 +1,12 @@
+explain microfrondend
+explain microservice archicture basci component
+what is indexing
+what is mongodb optimization technique.
+why nestjs used .And how it is differ from nodejs
+how you design archicture of mongo db.
+write a programme to 
+  //Create a range function that generates a sequence of numbers starting at the first argument, 
+//incrementing by the third argument, and stopping at the second argument.
+//range(0, 5) // [0, 1, 2, 3, 4, 5]
+//range(3, 9, 3) // [3, 6, 9]
+//range(10, 50, 10) // [10, 20, 30, 40, 50]
