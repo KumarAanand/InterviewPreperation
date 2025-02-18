@@ -1,0 +1,30 @@
+Design the stop watch and reset and stop and start
+
+import React , { useState, useEffect} from "react";
+export default function App() {
+    const [time,setTime] = useState(0);
+    const [isRunning,setIsRunning] = useState(false);
+
+    useEffect(()=>{
+        let interval;
+        if(isRunning){
+            interval = setInterval(()=>{
+                setTime((prevTime)=>prevTime+1)
+            },1000)
+        }
+        else{
+            clearInterval(interval);
+        }
+        return ()=>clearInterval(interval)
+    },[isRunning])
+
+    const handleReset = () =>{
+        setTime(0);
+        setIsRunning(true);
+    }
+  return <><h1>Stop watch : {time}s</h1>
+     <button onClick={()=>setIsRunning(!isRunning)}>{isRunning ?"Pause":"start"}</button>
+    <button onClick={handleReset}>Reset</button>
+  </>
+    
+}

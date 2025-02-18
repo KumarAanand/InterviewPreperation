@@ -1,0 +1,58 @@
+
+create a outer square box and inner bbox. In that inner box is centerlise center.
+reverse the array without creating new array.
+
+let arr = [4,5,6,7,8]
+function reverseArr(arr){
+    console.log('Non-reversed arr' ,arr )
+    for(let i=0;i<Math.floor(arr.length/2);i++){
+        let temp = arr[i];
+        arr[i]= arr[arr.length-i-1];
+        arr[arr.length-i-1]=temp;
+    }
+    return arr;
+}
+console.log(reverseArr(arr))
+create a dupliate array and correct the following programme.
+ Array.prototype.duplicate = function (){
+     return this.concat([6,7,8,9]);
+ }
+
+// console.log([2,3,4].duplicate())
+
+write a logic to following 'tree' object. And print the value.
+const tree = {
+  value: "A",
+  children: [
+    {
+      value: "B",
+      children: [
+        { value: "D", children: [] },
+        { value: "E", children: [] },
+      ],
+    },
+    {
+      value: "C",
+      children: [
+        { value: "F", children: [] },
+        { value: "G", children: [] },
+      ],
+    },
+  ],
+}
+const result = depthFirstTraversal(tree); 
+console.log(result);
+// Output: ["A", "B", "D", "E", "C", "F", "G"]
+
+Give the output of following code.
+function f(x) {
+  x++;
+  (x = x-3) && ++x;
+  return x--
+}
+
+console.log(f(2))
+animal is object. Inheriateh animal object to dog. So using dog intance i am able to achive the animal property.correct the following
+code.
+const animal = { sleep: "zZZZ" }; 
+const dog = { bark: "bow bow" };  console.log(dog.sleep); //zZZZ

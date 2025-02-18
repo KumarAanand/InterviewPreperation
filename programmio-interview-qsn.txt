@@ -1,0 +1,9 @@
+what do you prefer as developer in react, Angular and Why
+what is closure in javascript . tell me the real time example of closure implementation. what is disadvantage of using clousure.
+what is worker thread.
+write a programme to get the max frequency of char in given string.
+write a promise and call it.
+what is diffrence between async and await.
+what is key in react. why we use those.
+
+ 

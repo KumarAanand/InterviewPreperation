@@ -1,0 +1,13 @@
+what is diffrence between rem and em in css.
+what is object model in html.
+what is diffrence between location and navigation.
+what is sudo element in html.
+what is webbcomponent.
+what is setimmediate and process.next method. explain the diffrence both of them.
+what is currying in javascript.
+what is servie worker in javascript.
+what is thread pool in nodejs.
+what is portal in react.
+how you implement the componentshouldmount in react functional component. could you help me to write code.
+
+
