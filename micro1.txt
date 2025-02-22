@@ -1,0 +1,19 @@
+what is websocket.
+what is microfrontend artchicute.what all libary it is used to devide the module.
+what hoisting in javascript.
+what is callback hell.How we can overcome this problem.
+what would be output of following code.
+1.for (var i = 0; i < 3; i++) {
+setTimeout(() => console.log(i), 0);
+}
+
+2.for (var i = 0; i < 3; i++) {
+setTimeout(() => console.log(i), 0);
+}
+
+3.for (const i = 0; i < 3; i++) {
+setTimeout(() => console.log(i), 0);
+}
+
+
+
